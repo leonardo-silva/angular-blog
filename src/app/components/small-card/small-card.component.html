@@ -4,7 +4,7 @@
       <img src="{{ photo }}" alt="mock image">
     </div>
     <div class="small-card__title">
-      <p>{{ title }}</p>
+      <p><a [routerLink]="['content', id]">{{ title }}</a></p>
     </div>
   </div>
   <div class="small-card__separator">
