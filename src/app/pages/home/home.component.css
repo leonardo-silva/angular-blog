@@ -1,3 +1,9 @@
+header {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
 .articles__container {
   margin-top: 2rem;
 
